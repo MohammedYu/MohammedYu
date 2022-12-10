@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300;1,600&display=swap')
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+.home-hero{
+	background-image:url(puppies/header.jpg);
+	height:475px;
+	background-size:cover;
+	background-posiition: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+#navfont{
+	
+	color:black;
+	font-size: 3em;
+}
+	
+.img{
+	display:block;
+	margin:0 auto;
+	
+	
+}
+#puppyheader{
+	
+	background-color:#008000;
+	
+	
+}
+
+
+.text-me{
+	
+	text-align:center;
+}
+
+h1{
+	text-align: center;
+}
+main {
+	max-width: 1000px;
+	margin: 20px auto;
+	max-width:1200px;
+	background-color: Lightgreen;
+}
+
+/* Vertical Navigation bar */
+
+nav, footer{
+	background-color:#087830;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin-top:0;
+	margin-bottom: 1rem;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color:White;
+}
+nav a:visited{
+	color:Blue;
+}
+nav a:hover{
+	color:Yellow;
+}
+nav a:active{
+	color:black;
+}
+
+/* a:link Colors */
+
+a:link{
+	color:purple;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:blue;
+}
+a:active{
+	color:black;
+}
+
+i.fa{
+	
+color:red;
+font-size: 5em;
+
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+
+/*CSS for Tablets */
+
+@media only screen and (max-width:1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/*CSS for Smartphones */
+
+@media only screen and (max-width:768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
