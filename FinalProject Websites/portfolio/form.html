@@ -1,0 +1,62 @@
+<!DOCTYPLE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Enter your information here">
+	<title>Mohammed's Portfolio: Form</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+
+	<header>
+		<h1>Mohammed's Portfolio</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="form.html">Form</a></li>
+			<li><a href="multimedia.html">Multimedia</a></li>
+			<li><a href="javascript.html">Javascript</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+	
+		<h2>Contact Form</h2>
+		<p>A form to input your contact information.</p>
+		
+		<form method="post" action="https://webdevstudents.com/portfolio/submit-form.php">
+		
+			<label for="first_name">* First Name</label>
+			<input type="text" id="first_name" name="first_name" required>
+			
+			<label for="last_name">* Last Name</label>
+			<input type="text" id="last_name" name="last_name" required>
+			
+			<label for="email">* email</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="phone">Phone</label>
+			<input type="tel" id="phone" name="phone">
+			
+			<label for="comments">Your Report</label>
+			<textarea id="comments" name="comments"></textarea>
+			
+			<input type="submit" value="submit">
+			</form>
+			
+	<footer>
+		<p><a href="https://saintpaul.edu" target="_blank">Saint Paul College</a></p>
+		<p><a href="mailto:me@gmail.com" target="_blank">Email Me</a> &bull;
+		<a href="tel:9999999999">Call Me</a> &bull;
+		<a href="sms:9999999999">Text Me</a>
+		</p>
+		<small>&copy; Mohammed Yusuf. All rights reserved.</small>
+	</footer>
+	
+</body>
+</html>
