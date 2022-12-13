@@ -38,7 +38,7 @@ body{
 }
 
 header{
-	color:white;
+	color:black;
 	background-color:purple;
 }
 
@@ -215,7 +215,7 @@ nav a{
 	padding-right: 10px;
 }
 nav a:link{
-	color:White;
+	color:blue;
 	font-size: 20px
 }
 nav a:visited{
