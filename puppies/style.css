@@ -6,7 +6,7 @@ body{
 }
 
 .home-hero{
-	background-image:url(puppies/header.jpg);
+	background-image:url(images/header.jpg);
 	height:475px;
 	background-size:cover;
 	background-posiition: center;
