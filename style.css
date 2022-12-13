@@ -294,6 +294,12 @@ a:active{
 	
 }
 
+#game{
+	border: 5px solid purple;
+	
+}
+
+
 /* JavaScript Game changes for mobile */
 .mobile{
 	display:none;
